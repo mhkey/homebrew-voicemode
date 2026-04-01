@@ -9,21 +9,8 @@ Hold the **Right Option key**, speak, release. Your words appear as text whereve
 - Apple Silicon Mac (M1/M2/M3/M4)
 - macOS 14 Sonoma or later
 - [Homebrew](https://brew.sh) installed
-- [GitHub CLI](https://cli.github.com) installed and authenticated (`gh auth login`)
-- Access to this private repo (you need to be added as a collaborator)
 
 ## Install
-
-### Step 1: Set up GitHub authentication for Homebrew
-
-Homebrew needs a GitHub token to download from this private repo. Run this once:
-
-```bash
-echo 'export HOMEBREW_GITHUB_API_TOKEN=$(gh auth token)' >> ~/.zshrc
-source ~/.zshrc
-```
-
-### Step 2: Install Voice Mode
 
 ```bash
 brew tap mhkey/voicemode-dev
@@ -73,8 +60,7 @@ rm -rf ~/.cache/huggingface/hub
 
 | Problem | Fix |
 |---------|-----|
-| `brew tap` fails with auth error | Run `gh auth login` first, then re-run the Step 1 setup |
-| `brew install` 404 error | Make sure `HOMEBREW_GITHUB_API_TOKEN` is set: `echo $HOMEBREW_GITHUB_API_TOKEN` |
+| `brew tap` fails | Check internet connection and try again |
 | App won't open / Gatekeeper | `xattr -cr /Applications/VoiceMode.app` then try again |
 | Splash screen shows error | Run `/Applications/VoiceMode.app/Contents/MacOS/VoiceMode` in Terminal to see full error |
 | "Python not found" | Should auto-install via pyenv. Manual fix: `pyenv install 3.11` |
