@@ -11,8 +11,7 @@ cask "voicemode" do
   homepage "https://github.com/mhkey/ProjectAI"
 
   # Apple Silicon only (MLX requirement)
-  arch arm_only: true
-
+  depends_on arch: :arm64
   depends_on macos: ">= :sonoma"
 
   app "VoiceMode.app"
