@@ -1,4 +1,4 @@
-# Voice Mode
+# Super Voice Mode
 
 Local voice-to-text dictation for coding on macOS. Fully on-device, nothing leaves your machine.
 
