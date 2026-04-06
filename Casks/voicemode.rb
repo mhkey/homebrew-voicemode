@@ -2,13 +2,13 @@
 # Install: brew install --cask voicemode
 
 cask "voicemode" do
-  version "0.4.5"
-  sha256 "f1b68a9352439b598451fec7a4bfb7fdf039e6c751d6bc2eec986853db71f75a"
+  version "0.4.6"
+  sha256 "4fb70dcbb96fe795fabe655a514dd0dbf814af356f50a3b17278473cbe1156d2"
 
   url "https://github.com/mhkey/homebrew-voicemode/releases/download/v#{version}/VoiceMode-#{version}.zip"
   name "Voice Mode"
   desc "Local voice-to-text dictation for coding on macOS — fully on-device, Apple Silicon"
-  homepage "https://github.com/mhkey/homebrew-voicemode"
+  homepage "https://github.com/mhkey/voicemode"
 
   depends_on arch: :arm64
   depends_on macos: ">= :sequoia"
@@ -18,8 +18,6 @@ cask "voicemode" do
   zap trash: [
     "~/Library/Application Support/VoiceMode",
     "~/.config/voice-mode",
-    "~/Library/Caches/models",
-    "~/Documents/huggingface/models/argmaxinc/whisperkit-coreml",
   ]
 
   caveats <<~EOS
