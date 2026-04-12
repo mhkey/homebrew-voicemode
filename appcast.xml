@@ -5,10 +5,10 @@
     <link>https://dl.voicemode.io/appcast.xml</link>
     <language>en</language>
     <item>
-      <title>Version 0.5.6</title>
-      <pubDate>Thu, 09 Apr 2026 21:53:47 +0000</pubDate>
+      <title>Version 0.5.7</title>
+      <pubDate>Sun, 12 Apr 2026 03:01:05 +0000</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://dl.voicemode.io/VoiceMode-0.5.6.zip" sparkle:version="0.5.6" sparkle:shortVersionString="0.5.6" length="13801001" type="application/octet-stream" sparkle:edSignature="5Wr6+sFhFl1O5inBPGsmQDeFvJPgaM0PBZymY4PTlaQaKRDQ3vbNMles7yKJq+/F72IOvyUQ2rbGOop98OHlDA==" />
+      <enclosure url="https://dl.voicemode.io/VoiceMode-0.5.7.zip" sparkle:version="0.5.7" sparkle:shortVersionString="0.5.7" length="13870293" type="application/octet-stream" sparkle:edSignature="Ek8lKlD45DPr3XWnVkZ9T9CqtSRIRRsZIBtiFVwZanDcev6oE+OzpUsKsXZ2NTms6/VuSbWl7Ea0hprJkRqoDw==" />
     </item>
   </channel>
 </rss>

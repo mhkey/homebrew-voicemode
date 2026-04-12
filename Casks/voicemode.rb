@@ -2,8 +2,8 @@
 # Install: brew install --cask voicemode
 
 cask "voicemode" do
-  version "0.5.6"
-  sha256 "14c6feb19f5af21be933a63b284cb73e3e0922a0aed28ab0f5a744f1665f7e42"
+  version "0.5.7"
+  sha256 "889cb91ad722754d4bf411554ae341327b768e9dd5ce79f14464da944b1d0b7b"
 
   url "https://github.com/mhkey/homebrew-voicemode/releases/download/v#{version}/VoiceMode-#{version}.zip"
   name "Voice Mode"
